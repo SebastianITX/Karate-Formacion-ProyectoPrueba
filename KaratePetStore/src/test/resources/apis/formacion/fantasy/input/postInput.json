@@ -1,0 +1,46 @@
+[
+    {
+        "testDataFile": "'test-data/postPet_200.yml'",
+        "status": 200,
+        "body": {
+            "id": 14,
+            "name": "Gato 7",
+            "category": {
+                "id": 2,
+                "name": "cat"
+            },
+            "photoUrls": [
+                "string"
+            ],
+            "tags": [
+                {
+                    "id": 0,
+                    "name": "string"
+                }
+            ],
+            "status": "available"
+        }
+    },
+    {
+        "testDataFile": "'test-data/postPet_200.yml'",
+        "status": 200,
+        "body": {
+            "id": 15,
+            "name": "Gato 8",
+            "category": {
+                "id": 2,
+                "name": "cat"
+            },
+            "photoUrls": [
+                "string"
+            ],
+            "tags": [
+                {
+                    "id": 0,
+                    "name": "string"
+                }
+            ],
+            "status": "available"
+        }
+    }
+]

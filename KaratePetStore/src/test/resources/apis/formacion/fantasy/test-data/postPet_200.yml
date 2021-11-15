@@ -1,0 +1,18 @@
+statusCode: 200
+headers: {}
+params: {}
+body: '#(body)'
+matchResponse: true
+matchResponse: true
+responseMatches:
+  id: '#number'
+  name: '#string'
+  status: '#string'
+  tags: '#array'
+  category:
+    id: '#number'
+    name: '#string'
+responseMatchesEach:
+  tags:
+    id: '#number'
+    name: '#string'

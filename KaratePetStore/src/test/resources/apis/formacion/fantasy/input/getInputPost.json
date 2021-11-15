@@ -1,0 +1,14 @@
+[
+    {
+        "testDataFile": "'test-data/getPet_200.yml'",
+        "status": 200,
+        "petId": 14,
+        "name": "Gato 7"
+    },
+    {
+        "testDataFile": "'test-data/getPet_200.yml'",
+        "status": 200,
+        "petId": 15,
+        "name": "Gato 8"
+    }
+]
