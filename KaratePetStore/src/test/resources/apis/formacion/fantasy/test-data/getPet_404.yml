@@ -1,0 +1,17 @@
+statusCode: 404
+headers: {}
+params: {}
+petId: '#(petId)'
+responseMatchesLiteral:
+  name: '#(name)'
+matchResponse: true
+responseMatches:
+  id: '#number'
+  name: '#string'
+  status: '#string'
+  tags: '#array'
+responseMatchesEach:
+  tags:
+    id: '#number'
+    name: '#string'
+

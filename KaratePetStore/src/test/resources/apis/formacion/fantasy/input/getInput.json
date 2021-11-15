@@ -10,5 +10,11 @@
         "status": 200,
         "petId": 13,
         "name": "Dragón"
+    },
+    {
+        "testDataFile": "'test-data/getPet_200.yml'",
+        "status": 200,
+        "petId": 8,
+        "name": "Cupcake"
     }
 ]
