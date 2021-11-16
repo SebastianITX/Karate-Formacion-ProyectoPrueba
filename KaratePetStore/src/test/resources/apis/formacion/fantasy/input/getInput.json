@@ -3,7 +3,7 @@
         "testDataFile": "'test-data/getPet_200.yml'",
         "status": 200,
         "petId": 12,
-        "name": "Unicornio"
+        "name": "*****"
     },
     {
         "testDataFile": "'test-data/getPet_200.yml'",
@@ -14,7 +14,19 @@
     {
         "testDataFile": "'test-data/getPet_200.yml'",
         "status": 200,
-        "petId": 8,
-        "name": "Cupcake"
+        "petId": 15,
+        "name": "Gato 8"
+    },
+    {
+        "testDataFile": "'test-data/getPet_404.yml'",
+        "status": 404,
+        "petId": 1,
+        "name": null
+    },
+    {
+        "testDataFile": "'test-data/getPet_404.yml'",
+        "status": 404,
+        "petId": 100,
+        "name": null
     }
 ]

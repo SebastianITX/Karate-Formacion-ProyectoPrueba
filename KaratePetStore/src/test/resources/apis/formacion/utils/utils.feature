@@ -8,6 +8,6 @@ Scenario:
     * def getUrl =
         """
         function() {
-            return environments["petUrl"]
+            return environments["petUrl1"]
         }
         """
