@@ -7,6 +7,7 @@ Background:
 Scenario Outline: Get Case: we get the pets previously added
     * def req = call utils.readTestData <testDataFile>
     * def result = call read('operations/getFantasyPet.feature') req
+    * print <status>
     * match result.responseStatus == <status>
         Examples:
         | getInput |

@@ -18,10 +18,10 @@
         "name": "Gato 8"
     },
     {
-        "testDataFile": "'test-data/getPet_404.yml'",
-        "status": 404,
+        "testDataFile": "'test-data/getPet_200.yml'",
+        "status": 200,
         "petId": 1,
-        "name": null
+        "name": "Pet1"
     },
     {
         "testDataFile": "'test-data/getPet_404.yml'",

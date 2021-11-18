@@ -10,6 +10,7 @@ Scenario: getpet
     * url baseUrl
     Given path '/pet/', req.petId
     And headers headers
+    And print headers
     # And param languageId = req.params.languageId
     When method GET
 
