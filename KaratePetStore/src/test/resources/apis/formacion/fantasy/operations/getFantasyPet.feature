@@ -17,7 +17,8 @@ Scenario: getpet
 * def expectedStatusCode = req.statusCode || responseStatus
 * print req.statusCode
 * print responseStatus
-* match responseStatus == expectedStatusCode
+# * match responseStatus == expectedStatusCode
+* assert (responseStatus == expectedStatusCode)
 
 # match response schema in 'test-data' or any object
 * def responseContains = req.matchResponse === true && req.responseMatches ? req.responseMatches : responseType == 'json'? {} : ''
